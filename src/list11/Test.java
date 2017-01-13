@@ -33,6 +33,5 @@ public class Test
 		q.merge(q2);
 		
 		System.out.println(q.toString());
-		System.out.println(q2.toString());
 	}
 }
