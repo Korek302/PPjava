@@ -1,8 +1,8 @@
 package list12;
 
-public class Multiplier
+/*public class Multiplier
 {
-	public int[][] multiply(int[][] matrix1, int[][] matrix2)
+	public int[][] multiply(int[][] matrix1, int[][] matrix2) throws InterruptedException
 	{
 		int result[][] = new int[matrix1.length][matrix2.length];
 		
@@ -13,6 +13,9 @@ public class Multiplier
 			rows[i] = new Row(matrix1, matrix2, result, i);
 			rows[i].start();
 		}
+		for(Row t: rows) { t.start(); } // fork
+		for(Row t: rows) { t.join(); } // join
 		return result;
 	}
 }
+*/
